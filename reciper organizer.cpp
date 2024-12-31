@@ -4,7 +4,7 @@
 #include <string> // Required for using the string class
 #include <algorithm> // Required for using algorithm functions
 
-using namespace std;
+using namespace std; Using the standard namespace
 
 class Recipe {
 public:
