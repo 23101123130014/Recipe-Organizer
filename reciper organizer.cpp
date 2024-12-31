@@ -3,7 +3,7 @@
 #include <string> //requreid for using string class
 
 using namespace std; //requred for using standard namespace
-
+// definition of the recepe class
 class Recipe {
 public:
     string title, category, ingredients, instructions;
