@@ -24,8 +24,8 @@ public:
         cout << "Recipes in category: " << category << endl;
         for (const auto& recipe : recipes) {
             if (recipe.category == category) {
-                cout << "Title: " << recipe.title <<
-                cout << "\nIngredients: " << recipe.ingredients << endl;
+                cout << "Title: " << recipe.title;
+                cout << "\nIngredients: " << recipe.ingredients;
                 cout << "Instructions: " << recipe.instructions << endl;
                 cout << "-----------------" << endl;
             }
