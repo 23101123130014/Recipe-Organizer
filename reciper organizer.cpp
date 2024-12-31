@@ -2,7 +2,7 @@
 #include <vector> //requred for using vector function
 #include <string> //requreid for using string class
 
-using namespace std; //requred for using sta
+using namespace std; //requred for using standard namespace
 
 class Recipe {
 public:
