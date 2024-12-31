@@ -6,6 +6,7 @@
 
 using namespace std; Using the standard namespace
 
+// Definition of the Recipe class
 class Recipe {
 public:
     string title;
