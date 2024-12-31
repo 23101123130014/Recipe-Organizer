@@ -1,6 +1,6 @@
-#include <iostream> //requreid for using string class
+#include <iostream> 
 #include <vector>
-#include <string>
+#include <string> //requreid for using string class
 
 using namespace std;
 
