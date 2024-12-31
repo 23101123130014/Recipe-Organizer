@@ -1,0 +1,4 @@
+Store Recipes: The RecipeOrganizer class has a method addRecipe() which allows you to add recipes to the organizer.
+Categorize Recipes: Recipes are categorized by their category attribute. You can add recipes to specific categories like "Main Course" or "Dessert".
+Display by Category: The displayRecipesByCategory() method allows you to display all recipes that belong to a specific category.
+Search by Keyword: The searchRecipeByKeyword() method lets you search for recipes based on a keyword that appears in either the title or the ingredients of the recipe.
