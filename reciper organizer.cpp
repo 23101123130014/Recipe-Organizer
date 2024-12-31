@@ -1,5 +1,5 @@
 #include <iostream> //requred for using input and output operation
-#include <vector>
+#include <vector> //requred for using vector function
 #include <string> //requreid for using string class
 
 using namespace std;
