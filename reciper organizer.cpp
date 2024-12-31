@@ -9,7 +9,7 @@ using namespace std; Using the standard namespace
 // Definition of the Recipe class
 class Recipe {
 public:
-    string title;
+    string title; Title of the recipe
     string category;
     string ingredients;
     string instructions;
