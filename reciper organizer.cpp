@@ -1,7 +1,7 @@
 //Recipe Organizer: Store and categorize recipes with search functionality.
 #include <iostream>//use of istream
 #include <vector>
-#include <string>
+#include <string>// allow tje use of string
 #include <algorithm>
 
 using namespace std;
