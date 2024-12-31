@@ -10,7 +10,7 @@ using namespace std; Using the standard namespace
 class Recipe {
 public:
     string title; //Title of the recipe
-    string category;
+    string category; // Category of the recipe (e.g., Dessert, Main Course)
     string ingredients;
     string instructions;
 
