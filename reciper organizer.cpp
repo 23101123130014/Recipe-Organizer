@@ -11,7 +11,7 @@ class Recipe {
 public:
     string title; //Title of the recipe
     string category; // Category of the recipe (e.g., Dessert, Main Course)
-    string ingredients;
+    string ingredients; // Ingredients needed for the recipe
     string instructions;
 
     Recipe(string t, string c, string i, string ins) : title(t), category(c), ingredients(i), instructions(ins) {}
