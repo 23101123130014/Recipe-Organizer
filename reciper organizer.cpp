@@ -2,7 +2,7 @@
 #include <iostream>// Required for input-output operations
 #include <vector>// Required for using the vector container
 #include <string> // Required for using the string class
-#include <algorithm>
+#include <algorithm> // Required for using algorithm functions
 
 using namespace std;
 
