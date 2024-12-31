@@ -1,18 +1,12 @@
-//Recipe Organizer: Store and categorize recipes with search functionality.
-#include <iostream>// Required for input-output operations
-#include <vector>// Required for using the vector container
-#include <string> // Required for using the string class
-#include <algorithm> // Required for using algorithm functions
+#include <iostream>
+#include <vector>
+#include <string>
 
-using namespace std; Using the standard namespace
+using namespace std;
 
-// Definition of the Recipe class
 class Recipe {
 public:
-    string title; //Title of the recipe
-    string category; // Category of the recipe (e.g., Dessert, Main Course)
-    string ingredients; // Ingredients needed for the recipe
-    string instructions; // Instructions to prepare the recipe
+    string title, category, ingredients, instructions;
 
     Recipe(string t, string c, string i, string ins) : title(t), category(c), ingredients(i), instructions(ins) {}
 };
