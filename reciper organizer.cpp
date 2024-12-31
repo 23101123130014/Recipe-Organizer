@@ -26,7 +26,7 @@ public:
             if (recipe.category == category) {
                 cout << "Title: " << recipe.title;
                 cout << "\nIngredients: " << recipe.ingredients;
-                cout << "Instructions: " << recipe.instructions << endl;
+                cout << "\nInstructions: " << recipe.instructions;
                 cout << "-----------------" << endl;
             }
         }
