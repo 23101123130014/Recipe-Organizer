@@ -12,7 +12,7 @@ public:
     string title; //Title of the recipe
     string category; // Category of the recipe (e.g., Dessert, Main Course)
     string ingredients; // Ingredients needed for the recipe
-    string instructions;
+    string instructions; // Instructions to prepare the recipe
 
     Recipe(string t, string c, string i, string ins) : title(t), category(c), ingredients(i), instructions(ins) {}
 };
