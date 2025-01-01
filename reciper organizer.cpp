@@ -3,14 +3,9 @@
 #include <string>    // Allows using the string type for text
 #include <limits>    // Allows using std::numeric_limits
 
-<<<<<<< HEAD
 using namespace std; // Allows avoiding writing 'std::' before every standard library function
 
 // Definition of the Recipe class
-=======
-using namespace std; //requred for using standard namespace
-// definition of the recipe class
->>>>>>> 237da0b9866bd86cbef9da4012389b53dd8f979a
 class Recipe {
 public:
     string title;         // Title of the recipe
@@ -56,7 +51,7 @@ public:
                 cout << "Category: " << recipe.category << endl;
                 cout << "Ingredients: " << recipe.ingredients << endl;
                 cout << "Instructions: " << recipe.instructions << endl;
-                cout << "|||||" << endl;
+                cout << "-----------------" << endl;
             }
         }
     }
