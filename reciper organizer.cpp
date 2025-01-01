@@ -5,7 +5,7 @@
 using namespace std; //requred for using standard namespace
 // definition of the recepe class
 class Recipe {
-public:
+public: // accsess specific
     string title, category, ingredients, instructions;
 
     Recipe(string t, string c, string i, string ins) : title(t), category(c), ingredients(i), instructions(ins) {}
