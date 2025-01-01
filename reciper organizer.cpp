@@ -3,7 +3,7 @@
 #include <string> //requreid for using string class
 
 using namespace std; //requred for using standard namespace
-// definition of the recepe class
+// definition of the recipe class
 class Recipe {
 public: // accsess specific
     string title, category, ingredients, instructions;
@@ -40,7 +40,7 @@ public:
                 cout << "Category: " << recipe.category << endl;
                 cout << "Ingredients: " << recipe.ingredients << endl;
                 cout << "Instructions: " << recipe.instructions << endl;
-                cout << "-----------------" << endl;
+                cout << "|||||" << endl;
             }
         }
     }
