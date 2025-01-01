@@ -1,8 +1,9 @@
-#include <iostream>  // Hii inaruhusu kutumia kazi za pembejeo na matokeo kama cout
-#include <vector>    // Hii inaruhusu kutumia muundo wa data wa vector kuhifadhi vitu vingi
-#include <string>    // Hii inaruhusu kutumia aina ya string kwa maandishi
+#include <iostream>  // Inaruhusu kutumia kazi za pembejeo na matokeo kama cout
+#include <vector>    // Inaruhusu kutumia muundo wa data wa vector kuhifadhi vitu vingi
+#include <string>    // Inaruhusu kutumia aina ya string kwa maandishi
+#include <limits>    // Inaruhusu kutumia std::numeric_limits
 
-using namespace std; // Hii inaruhusu kuepuka kuandika 'std::' kabla ya kila kazi ya maktaba ya kawaida
+using namespace std; // Inaruhusu kuepuka kuandika 'std::' kabla ya kila kazi ya maktaba ya kawaida
 
 // Tafsiri ya mpango wa Recipe
 class Recipe {
@@ -88,7 +89,7 @@ int main() {
         cout << "4. Toka" << endl;
         cout << "Ingiza chaguo lako: ";
         cin >> choice;
-        cin.ignore(); // Puuza herufi ya newline iliyobaki kwenye buffer ya pembejeo
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Puuza herufi ya newline iliyobaki kwenye buffer ya pembejeo
 
         switch (choice) {
             case 1:
