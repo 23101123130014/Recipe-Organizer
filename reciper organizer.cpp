@@ -40,7 +40,7 @@ public:
                 cout << "Category: " << recipe.category << endl;
                 cout << "Ingredients: " << recipe.ingredients << endl;
                 cout << "Instructions: " << recipe.instructions << endl;
-                cout << "-----------------" << endl;
+                cout << "||" << endl;
             }
         }
     }
@@ -57,5 +57,3 @@ int main() {
 
     return 0;
 }
-
-// the program is over
