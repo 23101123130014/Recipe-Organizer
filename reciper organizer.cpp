@@ -12,7 +12,7 @@ public: // accsess specific
 };
 
 class RecipeOrganizer {
-private:
+private: // access specific
     vector<Recipe> recipes;
 
 public:
