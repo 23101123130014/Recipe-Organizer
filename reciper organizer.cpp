@@ -37,7 +37,7 @@ public:
                 cout << "Title: " << recipe.title << endl;
                 cout << "Ingredients: " << recipe.ingredients << endl;
                 cout << "Instructions: " << recipe.instructions << endl;
-                cout << "-----------------" << endl;
+                cout << "-|||||||-" << endl;
             }
         }
     }
