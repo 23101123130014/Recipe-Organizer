@@ -1,5 +1,5 @@
 #include <iostream> 
-#include <vector>    // Inaruhusu kutumia muundo wa data wa vector kuhifadhi vitu vingi
+#include <vector>    
 #include <string>    // Inaruhusu kutumia aina ya string kwa maandishi
 #include <limits>    // Inaruhusu kutumia std::numeric_limits
 
