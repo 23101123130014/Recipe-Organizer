@@ -1,7 +1,7 @@
 #include <iostream> 
 #include <vector>    
 #include <string>    
-#include <limits>    // Inaruhusu kutumia std::numeric_limits
+#include <limits>    
 
 using namespace std; // Inaruhusu kuepuka kuandika 'std::' kabla ya kila kazi ya maktaba ya kawaida
 
