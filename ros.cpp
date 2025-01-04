@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Tafsiri ya mpango wa Recipe
+
 class Recipe {
 public:
     string title;         // Jina la mapishi
