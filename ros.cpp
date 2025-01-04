@@ -18,7 +18,7 @@ public:
         : title(t), category(c), ingredients(i), instructions(ins) {}
 };
 
-// Tafsiri ya Recipe Organizer
+
 class RecipeOrganizer {
 private:
     vector<Recipe> recipes; // Orodha ya kuhifadhi mapishi yote
