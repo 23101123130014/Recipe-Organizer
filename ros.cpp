@@ -1,6 +1,6 @@
 #include <iostream> 
 #include <vector>    
-#include <string>    // Inaruhusu kutumia aina ya string kwa maandishi
+#include <string>    
 #include <limits>    // Inaruhusu kutumia std::numeric_limits
 
 using namespace std; // Inaruhusu kuepuka kuandika 'std::' kabla ya kila kazi ya maktaba ya kawaida
