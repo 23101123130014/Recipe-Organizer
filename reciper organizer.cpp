@@ -7,7 +7,10 @@ using namespace std;
 
 class Recipe {
 public:
-    string title, category, ingredients, instructions;
+    string title;
+	string category; 
+	string ingredients;
+	string instructions;
     Recipe(string t, string c, string i, string ins) : title(t), category(c), ingredients(i), instructions(ins) {}
 };
 
