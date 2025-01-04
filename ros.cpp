@@ -89,7 +89,7 @@ int main() {
         cout << "4. Toka" << endl;
         cout << "Ingiza chaguo lako: ";
         cin >> choice;
-        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Puuza herufi ya newline iliyobaki kwenye buffer ya pembejeo
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         switch (choice) {
             case 1:
