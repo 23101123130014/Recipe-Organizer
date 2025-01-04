@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //allow the use of input and output stream such as cout
 #include <vector>
 #include <string>
 #include <limits>
