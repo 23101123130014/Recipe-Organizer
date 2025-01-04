@@ -3,7 +3,7 @@
 #include <string>    
 #include <limits>    
 
-using namespace std; // Inaruhusu kuepuka kuandika 'std::' kabla ya kila kazi ya maktaba ya kawaida
+using namespace std;
 
 // Tafsiri ya mpango wa Recipe
 class Recipe {
