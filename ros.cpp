@@ -1,4 +1,4 @@
-#include <iostream>  // Inaruhusu kutumia kazi za pembejeo na matokeo kama cout
+#include <iostream> 
 #include <vector>    // Inaruhusu kutumia muundo wa data wa vector kuhifadhi vitu vingi
 #include <string>    // Inaruhusu kutumia aina ya string kwa maandishi
 #include <limits>    // Inaruhusu kutumia std::numeric_limits
