@@ -24,7 +24,7 @@ private:
     vector<Recipe> recipes; // Orodha ya kuhifadhi mapishi yote
 
 public:
-    // Njia ya kuongeza mapishi mapya
+    
     void addRecipe(string title, string category, string ingredients, string instructions) {
         recipes.push_back(Recipe(title, category, ingredients, instructions));
     }
