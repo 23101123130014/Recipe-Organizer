@@ -13,7 +13,7 @@ public:
     string ingredients;   
     string instructions;  // Hatua za kuandaa mapishi
 
-    // Constructor ya kuunda Recipe mpya
+   
     Recipe(string t, string c, string i, string ins) 
         : title(t), category(c), ingredients(i), instructions(ins) {}
 };
