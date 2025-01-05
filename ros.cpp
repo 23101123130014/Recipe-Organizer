@@ -79,7 +79,8 @@ void getRecipeInput(RecipeOrganizer& organizer) {
 int main() {
     RecipeOrganizer organizer;
     int choice;
-    string category, keyword;
+    string category;
+    string keyword;
 
     while (true) {
         cout << "\nMenyu ya Recipe Organizer" << endl;
