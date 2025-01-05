@@ -9,7 +9,7 @@ using namespace std;
 class Recipe {
 public:
     string title;         // Jina la mapishi
-    string category;      // Aina (Dessert, Main Course)
+    string category;      
     string ingredients;   
     string instructions;  // Hatua za kuandaa mapishi
 
