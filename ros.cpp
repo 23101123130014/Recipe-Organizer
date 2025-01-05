@@ -57,7 +57,7 @@ public:
     }
 };
 
-// Njia ya kupata pembejeo za mtumiaji kwa mapishi mapya
+
 void getRecipeInput(RecipeOrganizer& organizer) {
     string title, category, ingredients, instructions;
 
