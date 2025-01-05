@@ -42,7 +42,7 @@ public:
         }
     }
 
-    // Njia ya kutafuta mapishi kwa neno kuu
+   
     void searchRecipeByKeyword(string keyword) {
         cout << "Matokeo ya utafutaji kwa neno kuu: " << keyword << endl;
         for (const auto& recipe : recipes) {
