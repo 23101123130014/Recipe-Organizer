@@ -10,7 +10,7 @@ class Recipe {
 public:
     string title;         // Jina la mapishi
     string category;      // Aina (Dessert, Main Course)
-    string ingredients;   // Viungo vinavyohitajika
+    string ingredients;   
     string instructions;  // Hatua za kuandaa mapishi
 
     // Constructor ya kuunda Recipe mpya
