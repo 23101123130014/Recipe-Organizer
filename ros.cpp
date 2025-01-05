@@ -21,7 +21,7 @@ public:
 
 class RecipeOrganizer {
 private:
-    vector<Recipe> recipes; // Orodha ya kuhifadhi mapishi yote
+    vector<Recipe> recipes; 
 
 public:
     
