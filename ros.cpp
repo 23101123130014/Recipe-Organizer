@@ -8,7 +8,7 @@ using namespace std;
 
 class Recipe {
 public:
-    string title;         // Jina la mapishi
+    string title;         
     string category;      
     string ingredients;   
     string instructions;  // Hatua za kuandaa mapishi
