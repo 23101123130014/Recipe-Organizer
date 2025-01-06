@@ -115,7 +115,7 @@ int main() {
                 organizer.displayRecipesByCategory(category);
                 break;
             case 3:
-                // Search for recipes by keyword
+                // enable for search for recepe using key word
                 cout << "Enter the keyword to search recipes: ";
                 getline(cin, keyword);
                 organizer.searchRecipeByKeyword(keyword);
