@@ -121,7 +121,7 @@ int main() {
                 organizer.searchRecipeByKeyword(keyword);
                 break;
             case 4:
-                
+                //alert for exiting program
                 cout << "Exiting the program." << endl;
                 return 0;
             default:
