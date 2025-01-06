@@ -126,7 +126,7 @@ int main() {
                 return 0;
             default:
                 // Handle invalid menu choice
-                cout << "Invalid choice. Please try again." << endl;
+                cout << "Invalid choice try again." << endl;
         }
     }
 
