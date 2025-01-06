@@ -11,7 +11,7 @@ public:
     string title;         
     string category;      
     string ingredients;   
-    string instructions;  // Hatua za kuandaa mapishi
+    string instructions; 
 
    
     Recipe(string t, string c, string i, string ins) 
@@ -29,7 +29,7 @@ public:
         recipes.push_back(Recipe(title, category, ingredients, instructions));
     }
 
-    // Njia ya kuonyesha mapishi kwa aina
+  
     void displayRecipesByCategory(string category) {
         cout << "Mapishi katika aina: " << category << endl;
         for (const auto& recipe : recipes) {
