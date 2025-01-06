@@ -1,1 +1,43 @@
-description
+Components
+Recipe Class
+
+Purpose: Store the details of a recipe.
+
+Attributes: title, category, ingredients, and instructions.
+
+Constructor: Initializes a new Recipe object with the given details.
+
+RecipeOrganizer Class
+
+Purpose: Manage a collection of recipes.
+
+Attributes: recipes (a vector to store Recipe objects).
+
+Methods:
+
+addRecipe: Adds a new recipe to the collection.
+
+displayRecipesByCategory: Displays all recipes in a given category.
+
+searchRecipeByKeyword: Searches and displays recipes that contain a given keyword in the title or ingredients.
+
+Functions:
+
+getRecipeInput: Prompts the user to enter recipe details and adds the recipe to the organizer.
+
+Main Function
+Menu Display:
+
+Displays a menu with four options: Add a Recipe, Display Recipes by Category, Search Recipe by Keyword, and Exit.
+
+User Input Handling:
+
+The user selects an option from the menu, and the program performs the corresponding action:
+
+Add a Recipe: Calls getRecipeInput to add a new recipe.
+
+Display Recipes by Category: Prompts for a category and calls displayRecipesByCategory.
+
+Search Recipe by Keyword: Prompts for a keyword and calls searchRecipeByKeyword.
+
+Exit: Exits the program.
