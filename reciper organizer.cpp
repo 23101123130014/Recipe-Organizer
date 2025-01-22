@@ -11,7 +11,7 @@ public:
     string title;       
     string category;    // Category of the recipe (e.g., Dessert, Main Course)
     string ingredients; // Ingredients needed for the recipe
-    string instructions;// Steps to prepare the recipe
+    string instructions;
 
     // Constructor to initialize a new Recipe object
     Recipe(string t, string c, string i, string ins)
