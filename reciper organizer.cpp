@@ -34,7 +34,7 @@ public:
         cout << "Recipes in category: " << category << endl;
         cout << "-----------------" << endl;
 
-        // Loop through the recipes and display those that match the category
+        
         for (const auto& recipe : recipes) {
             if (recipe.category == category) {
                 cout << "Title: " << recipe.title << endl;
