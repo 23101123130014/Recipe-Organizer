@@ -80,7 +80,7 @@ void getRecipeInput(RecipeOrganizer& organizer) {
     cout << "Enter the instructions for the recipe: ";
     getline(cin, instructions);
 
-    // Add the new recipe to the organizer
+    // A
     organizer.addRecipe(title, category, ingredients, instructions);
 }
 
