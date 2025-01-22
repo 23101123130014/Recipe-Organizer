@@ -109,7 +109,7 @@ int main() {
                 getRecipeInput(organizer);
                 break;
             case 2:
-                // Display recipes by category
+                
                 cout << "Enter the category to display recipes: ";
                 getline(cin, category);
                 organizer.displayRecipesByCategory(category);
