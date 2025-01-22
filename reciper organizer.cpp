@@ -8,7 +8,7 @@ using namespace std;
 // Definition of the Recipe class to store recipe details
 class Recipe {
 public:
-    string title;       // Title of the recipe
+    string title;       
     string category;    // Category of the recipe (e.g., Dessert, Main Course)
     string ingredients; // Ingredients needed for the recipe
     string instructions;// Steps to prepare the recipe
