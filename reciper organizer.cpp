@@ -85,7 +85,7 @@ void getRecipeInput(RecipeOrganizer& organizer) {
 }
 
 int main() {
-    RecipeOrganizer organizer; // Create an instance of RecipeOrganizer
+    RecipeOrganizer organizer;
     int choice;                
     string category, keyword;  
 
