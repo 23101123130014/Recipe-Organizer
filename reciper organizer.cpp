@@ -24,7 +24,7 @@ private:
     vector<Recipe> recipes; 
 
 public:
-    // Method to add a new recipe to the organizer
+    
     void addRecipe(string title, string category, string ingredients, string instructions) {
         recipes.push_back(Recipe(title, category, ingredients, instructions));
     }
