@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Definition of the Recipe class to store recipe details
+
 class Recipe {
 public:
     string title;       
