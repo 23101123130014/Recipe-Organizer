@@ -87,7 +87,7 @@ void getRecipeInput(RecipeOrganizer& organizer) {
 int main() {
     RecipeOrganizer organizer; // Create an instance of RecipeOrganizer
     int choice;                
-    string category, keyword;  // Variables to store user input for category and keyword
+    string category, keyword;  
 
     while (true) {
         // Display the menu options to the user
