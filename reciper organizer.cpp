@@ -63,7 +63,7 @@ public:
     }
 };
 
-// Function to get user input for a new recipe and add it to the organizer
+
 void getRecipeInput(RecipeOrganizer& organizer) {
     string title, category, ingredients, instructions;
 
