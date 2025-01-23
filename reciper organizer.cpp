@@ -21,7 +21,7 @@ public:
 
 class RecipeOrganizer {
 private:
-    vector<Recipe> recipes; // Vector to store all recipes
+    vector<Recipe> recipes; 
 
 public:
     // Method to add a new recipe to the organizer
