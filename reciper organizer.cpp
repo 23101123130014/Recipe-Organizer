@@ -90,7 +90,7 @@ int main() {
     string category, keyword;  
 
     while (true) {
-        // Display the menu options to the user
+        
         cout << "\nRecipe Organizer Menu" << endl;
         cout << "1. Add a Recipe" << endl;
         cout << "2. Display Recipes by Category" << endl;
