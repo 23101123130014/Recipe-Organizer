@@ -18,7 +18,7 @@ public:
         : title(t), category(c), ingredients(i), instructions(ins) {}
 };
 
-// Definition of the RecipeOrganizer class to manage recipes
+
 class RecipeOrganizer {
 private:
     vector<Recipe> recipes; // Vector to store all recipes
