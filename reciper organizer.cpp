@@ -10,7 +10,7 @@ class Recipe {
 public:
     string title;       
     string category;    
-    string ingredients; // Ingredients needed for the recipe
+    string ingredients; 
     string instructions;
 
     // Constructor to initialize a new Recipe object
