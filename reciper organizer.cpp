@@ -13,7 +13,7 @@ public:
     string ingredients; 
     string instructions;
 
-    // Constructor to initialize a new Recipe object
+
     Recipe(string t, string c, string i, string ins)
         : title(t), category(c), ingredients(i), instructions(ins) {}
 };
