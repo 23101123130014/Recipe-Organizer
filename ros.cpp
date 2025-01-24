@@ -105,7 +105,7 @@ int main() {
                 organizer.searchRecipeByKeyword(keyword);
                 break;
             case 4:
-                cout << "Kuhitimisha mpango." << endl;
+                cout << "Kuhitimisha" << endl;
                 return 0;
             default:
                 cout << "Chaguo batili. Jaribu tena." << endl;
