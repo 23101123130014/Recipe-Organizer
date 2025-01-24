@@ -4,7 +4,6 @@
 #include <limits>    
 using namespace std;
 
-
 class Recipe {
 public:
     string title;         
